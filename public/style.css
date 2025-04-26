@@ -1,0 +1,39 @@
+body {
+    background-color: #5090c5;
+    display: inline;
+    color: #fff;
+    margin: none;
+    padding: none;
+    font-family: "Atkinson Hyperlegible Mono", serif;
+}
+
+#webproxy {
+    border: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 92vh;
+    background-color: #222;
+}
+
+#top {
+    height: 6vh;
+    width: 100vw;
+    margin: none;
+}
+
+#form {
+    width: 462px;
+    margin: 0 auto;
+}
+
+input {
+    border: none;
+    border-radius: 5px;
+    font-family: "Atkinson Hyperlegible Mono", serif;
+}
+
+label {
+    font-size: 14px;
+}

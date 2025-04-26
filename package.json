@@ -1,0 +1,9 @@
+{
+	"type": "module",
+	"devDependencies": {
+		"@mercuryworkshop/bare-mux": "^2.1.7",
+		"@mercuryworkshop/epoxy-transport": "^2.1.27",
+		"esbuild": "^0.25.3",
+		"express": "^5.1.0"
+	}
+}

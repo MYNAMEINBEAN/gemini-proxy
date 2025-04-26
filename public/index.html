@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemini Proxy</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="/gp/gp.sw.js" defer></script>
+</head>
+<body>
+    <div id="top">
+        <form id="form">
+            <label>
+                Gemini Proxy
+                <input type="text" placeholder="url" id="addr">
+            </label>
+        </form>
+    </div>
+    <iframe id="webproxy"></iframe>
+    <script src="/bare-mux/index.js" defer></script>
+    <script src="/register-sw.js" type="module" defer></script>
+    <script src="/index.js" defer></script>
+</body>
+</html>
