@@ -1,6 +1,6 @@
 importScripts('/gp/gp.sw.js');
 
-const gemini = new GeminiProxy('GEMINI_TOKEN_HERE');
+const gemini = new GeminiProxy('AIzaSyBjHCN41HnvuNqBQo7MdCpUyTWCyKRDDoE');
 
 async function handleRequest(event) {
     if (gemini.route({ request: event.request })) {
